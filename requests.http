@@ -1,0 +1,14 @@
+### 
+GET http://localhost:3001/api/read-products
+
+### Get
+GET http://localhost:3001/api/read-product
+
+###
+POST http://localhost:3001/api/create-product
+
+### Get
+PUT http://localhost:3001/api/update-product
+
+### Get
+DELETE http://localhost:3001/api/delete-product
