@@ -1,16 +1,9 @@
-import { PORT } from "./config";
-import express from "express";
-import cors from "cors";
-import morgan from "morgan";
-import apiRoutes from "./routes/api.routes";
+import app from "./app";
+import {PORT} from './config'
 
-const app = express();
+const main = () => {
+  app.listen(PORT);
+  console.log(`Server on port http://localhost:${PORT}`);
+};
 
-app.use(cors());
-app.use(morgan("dev"));
-
-app.use("/api", apiRoutes);
-
-app.listen(PORT);
-
-console.log(`Server on port http://localhost:${PORT}`);
+main();
