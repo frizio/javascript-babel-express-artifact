@@ -13,5 +13,7 @@ app.use(express.json());
 // Routes
 app.use("/api", apiRoutes);
 
+// Public Folder
+app.use(express.static(__dirname + "/public"));
 
 export default app;
