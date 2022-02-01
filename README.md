@@ -8,6 +8,7 @@ Use import / export instructions...
 
 ```bash
 npm i express morgan cors dotenv
+npm i pino pino-pretty
 ```
 
 ## Install Dev Dependencies
