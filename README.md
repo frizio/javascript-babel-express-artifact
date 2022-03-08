@@ -1,8 +1,8 @@
-# Archetype for Basic Web Server with javascript + Express (ES module)
+# Artifact for Basic Web Server with javascript + Express (ES module)
 
 Use import / export instructions...
 
-[CommonJS vs. ES modules in Node.js](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/)
+## [CommonJS vs. ES modules in Node.js](https://blog.logrocket.com/commonjs-vs-es-modules-node-js/)
 
 ## Install Dependencies
 
